@@ -1,0 +1,44 @@
+:root {
+  --background: #ffffff;
+  --main: #f9f3e8;
+  --accent: #e2ef80;
+  --secondary:  #b7dff1;
+  --primary: #f8d9dc;
+  --text: #332924;
+
+}
+
+
+body {
+  margin: 0 auto;
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+a {
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: 1em;
+}
+p , li , div{
+   font-family: 'Lora', serif;
+  font-size: 1rem; 
+  line-height: 1.6; 
+  color: var(--text); 
+}
+
+h1, h2 ,h3, h4{
+  font-family: 'Lilita One', sans-serif;
+  font-size: 3rem; 
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+

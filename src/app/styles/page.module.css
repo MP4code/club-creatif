@@ -1,0 +1,64 @@
+
+
+/** Bannière **/
+.banner{
+  width: 100%;
+  height: 600px;
+  background-color: var(--main);
+  display: flex;
+  justify-content: center;
+
+}
+.bannerContent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.background {
+  background-image: url("/img/blurry-woman-painting-clay-pot.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.bannerContent2{
+  width: 100%;
+  border: 2px solid orange;
+ 
+}
+.banner h1{
+  text-align: center;
+  font-size: 80px;
+}
+
+.bannerLink{
+  margin: 1em;
+  padding: 1em;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: var(--primary);
+  color: var(--text);
+  transition: background-color 0.5s ease-in-out;
+}
+.bannerLink a{
+  font-family: 'Lora', serif;
+}
+.bannerLink:hover{
+  background-image: none;
+  background-image: linear-gradient(to bottom, var(--accent), var(--primary)); 
+}
+
+
+.bannerContent p:nth-of-type(1){
+ text-align: center;
+ margin: 0 20%;
+}
+.bannerContent p:nth-of-type(2){
+ margin: 1em 0 0;
+ font-weight: 500;
+}
